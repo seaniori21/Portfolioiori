@@ -6,43 +6,60 @@ import travel from '/public/image/travel.jpg';
 export const projectsData = [
     {
         id: 1,
-        name: 'AI Powered Financial App',
-        description: "Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB. Used OTP via AWS SES, Google, and Facebook for the authentication system. Built AI assistants using OpenAI's latest model and trained using our dataset. Voice messages are converted to text using AWS Transcribe. The app fetches data from Google Sheets and generates a PDF term sheet, sent via AWS SES.",
-        tools: ['Express', 'MongoDB', 'OpenAI API', 'AWS SES', 'AWS S3', 'Node Mailer', 'Joi', 'Puppeteer', 'EC2', 'PM2', 'Nginx'],
-        role: 'Backend Developer',
+        name: 'Crest Weather Data',
+        description: "I designed and developed a weather website using JavaScript, HTML, CSS, d3.js, and Python Flask to deliver real-time weather data"+
+                    "visualizations to support research efforts by providing users with accessible, clear and up-to-date weather insights."+
+                    "Implemented data retrieval from the Crest database with BeautifulSoup, cleaned data using SciPy, NumPy, and Pandas, and stored it in MongoDB."+
+                    "Built a REST API with 15-minute updates using Axios and APScheduler. "+
+                    "Additionally, initiated a React Native app leveraging the same backend with fetch API and Axios. "
+                        ,
+        tools: ['Web Technologies', 'd3.js', 'Flask', 'MongoDB', 'BeautifulSoup', 'Rest API', 'React Native', 'Nginx'],
+        role: 'FullStack Developer',
         code: '',
         demo: '',
         image: crefin,
     },
     {
         id: 2,
-        name: 'Travel Agency App',
-        description: 'I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia. I created the UI using NextJS, Typescript, MUI, TailwindCSS, Google Maps, Sun-Editor, and React Slick. The app supports multiple languages and currencies. I developed the API using NestJS, Typescript, MySQL, TypeORM, AWS, and Nodemailer. I deployed the front-end app to AWS Amplify and the back-end app to AWS EC2.',
-        tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        role: 'Full Stack Developer',
+        name: 'Automate',
+        description: 'Me and my team Designed a website for building custom task automation pipelines using Vite-React, SWC, and Tailwind CSS.'+
+            'Then we Implemented secure route protection with Firebase and React Router DOM, leveraging user context and authentication to dynamically render user-specific content.'+
+            'I developed a hierarchical workflow builder, enabling users to create customizable workflows with parent tasks and child functions (e.g., Azure user management, email automation, scheduling) that run asynchronously. '+
+            'Additionally, we tested the app using Vitest, Playwright, and Jest, ensuring robust functionality through unit, integration, and end-to-end tests.'+
+            'Leveraged GitHub Actions for Continuous Integration (CI) to automate test execution, manage dependencies, and generate detailed reports for coverage and test results, ensuring consistent and reliable feedback throughout development.'
+            ,
+        tools: ['React', 'Tailwind CSS', "Vite", "TypeScript", 'MUI', "Firebase", "NoSQL", "Playwright", "CI/CD", "Jest", "Vitest", 'EmailJS', ],
+        role: 'React Developer',
         code: '',
         demo: '',
         image: travel,
     },
     {
         id: 3,
-        name: 'AI Powered Real Estate',
-        description: 'My team built an AI-based real estate app using Replicate API and OpenAI. We used Express, Typescript, OpenAI, Replicate, Stripe, and Mongoose to develop the API. We utilized NextJS, Formik, TailwindCSS, and other npm libraries for the UI. We have trained multiple AI assistants using the latest GPT model and integrated Replicate API for image processing. We added role-based auth, subscription plans, Cron job scheduling, and payment integration with Stripe.',
-        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'TypeScript', 'MongoDB', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
+        name: 'Scheduler',
+        description: 'My team developed a website using React, Bootstrap, and Python Flask to automate employee work schedules for employers.'+
+        'We Used Flask, Scheduler, flask_jwt_extended, blueprints, SQLite3 and OR-tools for the backend algorithms. '+
+        'Then we created a responsive user interface with Bootstrap and React, and built a Python REST API to handle data exchange between the frontend and backend.'+
+        'We utilized React hooks to dynamically update timetables as employees and employers input their shifts and preferences.'
+        ,
+        tools: ['React', 'Bootstrap', 'SCSS', 'Stripe', 'Express', 'JavaScript', 'SQLite3', 'Azure Blob', 'OpenAI API', 'Replicate AI', 'Cronjob', 'JWT'],
         code: '',
-        role: 'Full Stack Developer',
+        role: 'FullStack Developer',
         demo: '',
         image: realEstate,
     },
     {
         id: 4,
-        name: 'Newsroom Management',
-        description: "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
-        tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
+        name: 'Pet Tinder Adoption',
+        description: 'My team and I developed An app that allows users to adopt pets through a Tinder-like interface using Android Studio during a Codepath course'+
+        'We outsourced Petfinder API for the list of pets up for adoption and their names, attributes and pics and used a NoSQL cloud database for user accounts.'+
+        'We used fragments, RecyclerViews and Viewlayouts to make the interface with a profile page holding the pets the users want'
+        ,
+        tools: ['Android Studio', 'AsyncHttpClient', 'Glide', 'Parceler', "Android SDK", "Gradle"],
         code: '',
         demo: '',
         image: ayla,
-        role: 'Full Stack Developer',
+        role: 'Android Developer',
     }
 ];
 
